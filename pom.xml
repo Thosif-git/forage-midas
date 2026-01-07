@@ -22,29 +22,19 @@
 
     <dependencies>
 
-        <!-- Spring Boot core -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- Spring Data JPA (CrudRepository, @Entity, etc) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- Jackson (@JsonIgnoreProperties) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-json</artifactId>
-        </dependency>
-
-        <!-- Optional DB (H2 for dev) -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
         </dependency>
 
     </dependencies>
@@ -59,3 +49,4 @@
     </build>
 
 </project>
+
